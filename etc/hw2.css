@@ -1,0 +1,124 @@
+body {
+font-family: Georgia, 'Times New Roman', Times, serif;
+background-color: lightgreen;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+.paper {
+height: 620px;
+width: 310px;
+background-color: white;
+border: 2px solid black;
+}
+header {
+display: flex;
+justify-content: center;
+position: relative;
+margin: 40px 0px;
+}
+header span {
+font-weight: bold;
+font-size: 20px;
+}
+header i {
+position: absolute;
+right: 10px;
+top: -30px;
+font-size: larger;
+}
+.section1 {
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.section1__beer {
+height: 120px;
+width: 120px;
+background-color: orange;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 2px solid black;
+border-radius: 10px; 
+margin-right: 25px;
+}
+.section1__beer i {
+color: aliceblue;
+font-size: 80px;
+}
+.section1__text {
+width: 25%;
+}
+.section1__text__1 {
+font-size:25px;
+font-weight: 700;
+}
+.section1__text__2 {
+font-size: 15px;
+font-weight: 300;
+} 
+.btns {
+display: flex;
+justify-content: center;
+margin-top:30px;
+margin-bottom: 40px;
+}
+.btns__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:2px solid black;
+    border-bottom-width: 5px;
+    border-radius: 50%;
+    width:50px;
+    height:50px;
+    background-color: orangered;
+    color: aliceblue;
+}
+.btns__btn--big {
+    width: 50%;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 15px;
+}
+.btns__btn--big i {
+    margin-right: 10px;
+}
+.btns span {
+    margin: 0px 5px;
+}
+.menu-list {
+    
+}
+.menu-list__title {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 20px;
+}
+.menu-list__cover {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:2px solid black;
+    border-left-width: 5px;
+    border-radius: 50%;
+    margin-right: 15px;
+    color:aliceblue;
+    background-color: orange;
+    opacity: 0.8;
+}
+.menu-list__explain {
+    
+    width: 50%;
+}
+.menu-list__explain span:first-child  {
+    display: block;
+    font-size: 18px;
+    font-weight: 600; 
+}
