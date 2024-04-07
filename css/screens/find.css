@@ -21,17 +21,29 @@
     display: flex;
     justify-content: space-between;
     opacity: 0.8;
-    margin-bottom: 25px;
+    
   }
   
   .open-chat__header span {
     opacity: 0.6;
   }
   
+  .open-chat__bottom {
+    display: flex;
+    overflow-y: scroll;
+  }
+
+  .open-chat__post {
+    width: 100%;
+    display: block;
+  }
+
   .open-post {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 0px;
+    border-bottom: var(--main-border);
   }
   
   .open-post__title {
